@@ -31,10 +31,10 @@ BACKEND_URL = "http://127.0.0.1:5000"
 TWILIO_ENABLED = True  # Set to False to disable SOS calls
 
 # YOUR CREDENTIALS (Get from Twilio dashboard)
-TWILIO_ACCOUNT_SID = "ACbd1c216109d0ad57061de375e4f07024"  # Replace with your Twilio Account SID
-TWILIO_AUTH_TOKEN = "6301b3c268416a6ceb2f253438325b16"    # Replace with your Twilio Auth Token
-TWILIO_PHONE_FROM = "+19156155448"        # Replace with your Twilio phone number
-YOUR_PHONE_NUMBER = "+919952791914"      # Replace with your personal phone (with country code)
+TWILIO_ACCOUNT_SID = "replace your"  # Replace with your Twilio Account SID
+TWILIO_AUTH_TOKEN = "replace yours"    # Replace with your Twilio Auth Token
+TWILIO_PHONE_FROM = "replace yours"        # Replace with your Twilio phone number
+YOUR_PHONE_NUMBER = "replace yours"      # Replace with your personal phone (with country code)
 
 # Initialize Twilio client
 twilio_client = None
@@ -732,3 +732,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
